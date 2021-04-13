@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
     root to: redirect('/admin/shops')
   end
+
+  get '/header', to: 'pages#header'
+
 end
